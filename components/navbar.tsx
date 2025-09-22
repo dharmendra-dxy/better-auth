@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Logout from "./logout-button";
 
 
 export default function Navbar() {
@@ -19,11 +20,12 @@ export default function Navbar() {
                 </button>
 
                 <button className="px-4 py-2 bg-slate-700 text-gray-300 rounded-md">
-                    <Link href="/signin"> Signin</Link>
+                    <Link href="/signin"> Sign-In</Link>
                 </button>
                 <button className="px-4 py-2 bg-slate-700 text-gray-300 rounded-md">
-                    <Link href="/signup"> Signup</Link>
+                    <Link href="/signup"> Sign-Up</Link>
                 </button>
+                <Logout/>
 
             </div>
 
